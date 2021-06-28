@@ -1,0 +1,21 @@
+html
+{overflow-y: hidden; overflow: scroll;
+margin: 0; padding: 0;box-sizing: border-box;
+display: flex;
+} 
+body
+{background-color: hsla(0, 0%, 0%);}
+
+main
+{
+    font-size: 2rem;
+    color: hsla(0, 0%, 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+ }
+ label
+ { 
+  text-align:center ;
+  font-size: 3rem;
+
+ }
