@@ -1,15 +1,28 @@
-
-nav {
+#barra {
+  padding: 2rem;
   color: #ffffff;
-  background-image: linear-gradient(
-    to right,
+ background-image: linear-gradient(
+    to top,
     hsla(0, 0%, 0%, 1),
     hsla(327, 98%, 17%, 1)
   );
   font-family: "Kaushan Script", cursive;
-  size: 40px;
-  text-decoration: none !important;
-}
+  size: 20px;
+  text-decoration: none;
+   }
+
+   #leyendafinal {
+     padding: 2rem;
+    color: #ffffff;
+   background-image: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 1),
+      hsla(327, 98%, 17%, 1)
+    );
+    font-family: "Kaushan Script", cursive;
+    size: 20px;
+    text-decoration: none;
+     }
 
 p {
   color: #ffffff;
@@ -18,8 +31,7 @@ p {
 
 }
 
-.secciones {
- 
+.secciones { 
   padding: 1rem;
   background-color: black;
 }
