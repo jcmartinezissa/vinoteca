@@ -1,6 +1,3 @@
-html {
-  background-color: black !important;
-}
 
 nav {
   color: #ffffff;
@@ -18,12 +15,13 @@ p {
   color: #ffffff;
   font-family: "Kaushan Script", Courier;
   size: 20px;
+
 }
 
 .secciones {
+ 
+  padding: 1rem;
   background-color: black;
-  border: solid 2px;
-  border-color: white;
 }
 
 .textoNeonRojo {
@@ -62,4 +60,4 @@ p {
   transition: 0.5s;
   z-index: 3;
 }
-/* .objeto:comporamiento objeto2*/
+
