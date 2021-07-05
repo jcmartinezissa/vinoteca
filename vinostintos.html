@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -20,10 +19,11 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
   </style>
-  <title>Vinoteca: vitivinicultura y sustentabilidad</title>
+  <title>Vinoteca: vinos Tintos</title>
 </head>
-<!-- barra de navegacion -->
-<nav id="barra" class="navbar navbar-expand-lg align-item-center">
+<body>
+  <!-- barra de navegacion -->
+<nav id="barra" class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <div class="navbar-brand">
       <img src="img/logo2.png" alt="logo vinoteca">
@@ -33,7 +33,7 @@
       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
       </span>
-    </button>
+    </button>    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item align-self-center">
@@ -52,15 +52,15 @@
             Elaboración
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="elavoraciontinto.html">Tinto </a></li>
-            <li><a class="dropdown-item" href="elavoracionblanco.html">Blanco</a></li>
-            <li><a class="dropdown-item" href="encontruccion.html">Rosado</a></li>
-            <li><a class="dropdown-item" href="encontruccion.html">Espumantes</a></li>
+            <li><a class="dropdown-item" href="elaboraciontinto.html">Tinto </a></li>
+            <li><a class="dropdown-item" href="elaboracionblanco.html">Blanco</a></li>
+            <li><a class="dropdown-item" href="enconstruccion.html">Rosado</a></li>
+            <li><a class="dropdown-item" href="enconstruccion.html">Espumantes</a></li>
           </ul>
         </li>
         <li class="nav-item align-self-center">
-          <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">
-            Aliados Gastronomicos
+          <a class="nav-link text-white" href="maridaje.html" tabindex="-1" aria-disabled="true">
+            Maridaje
           </a>
         </li>
       </ul>
@@ -334,10 +334,11 @@
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
 </body>
+
 <footer>
   <div class="row secciones">
     <!-- inicio  contacto-->
-    <!-- Modal -->
+      <!-- Modal -->
     <div class="modal fade " id="formulario_contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog">
@@ -386,7 +387,7 @@
                     <div class="col-12">
                       <div> <label for="comentario">Comentario</label>
                         <textarea id="comentario" class="form-control" placeholder="dfnvjdfjvdfv">
-                        </textarea>
+                          </textarea>
                       </div>
                     </div>
                   </div>
@@ -395,14 +396,15 @@
             </div>
           </div>
           <div class="modal-footer">
+            <span class="requerido">* campos obligatorios</span>
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
             <button type="button" class="btn btn-success">Enviar</button>
           </div>
         </div>
       </div>
     </div>
-    <section name="contacto" class="row secciones">
-      <div class="col-sm-1 col-md-4 col-xl-4 text-center">
+    <section name="contacto" class="row w-100">
+      <div class="col-sm-12 col-md-4 col-xl-4 text-center">
         <h1 class="textoNeonRojo text-center">Contacto</h1>
         <button type="button" class="btn btn-danger mx-auto" data-bs-toggle="modal"
           data-bs-target="#formulario_contacto">
@@ -410,34 +412,30 @@
         </button>
       </div>
       <!-- fin de contacto -->
-      <div class="col-sm-1 col-md-4 col-xl-4">
+      <div class="col-sm-12 col-md-4 col-xl-4">
         <h1 class="textoNeonRojo text-center">En redes</h1>
         <div class="text-light h2 text-center">
-          <a href=""> <i class="text-light fab fa-facebook"></i></a> :
-          <a href=""> <i class="text-light fab fa-twitter-square"></i></a> :
-          <a href=""> <i class="text-light fab fa-instagram"></i></a> :
-          <a href=""> <i class="text-light fab fa-youtube"></i></a> :
-          <a href=""> <i class="text-light fab fa-whatsapp"></i></a>
-        </div>
+        <a href=""> <i class="text-light fab fa-facebook"></i></a> :
+        <a href=""> <i class="text-light fab fa-twitter-square"></i></a> :
+        <a href=""> <i class="text-light fab fa-instagram"></i></a> :
+        <a href=""> <i class="text-light fab fa-youtube"></i></a> :
+        <a href=""> <i class="text-light fab fa-whatsapp"></i></a>
       </div>
-      <div class="col-sm-1 col-md-4 col-xl-4">
+      </div>
+      <div class="col-sm-12 col-md-4 col-xl-4">
         <h1 class="textoNeonRojo text-center">+ Info</h1>
         <p>Proyecto1 RollingCode</p>
         <p>Herramientas: HTML, CSS, Bootstrap, Trello</p>
-        <p>Año: 2021</p>
-        <div class="text-end">
-          <a class="btn btn-danger" href="#barra">
-            <p>Ir al cielo!</p>
-          </a>
-        </div>
+        <p>Año: 2021</p>       
       </div>
-
     </section>
-    <div class="col-12 text-center">
+    <div id="leyendafinal" class="col-12 text-center">
       <p>Vinoteca la ComarcaForce © 2021
         Beber con moderación. Prohibida su venta a menores de 18 años. </p>
+        <div class="align-content-end">
+          <a class="btn btn-danger" href="#barra" role="button">Ir al cielo!</a>
+          </div>  
     </div>
   </div>
 </footer>
-
 </html>
