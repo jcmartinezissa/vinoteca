@@ -72,4 +72,8 @@ p {
   transition: 0.5s;
   z-index: 3;
 }
+.requerido {
+  font-weight: 400;
+  font-size: 10px;
+}
 
